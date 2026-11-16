@@ -5,6 +5,7 @@ import numpy as np                          # module for quick calculations (mus
 from PIL import Image                       # module for image manipulation ("pillow" must be installed)
 import os                                   # module for handling file paths
 import io                                   # module for reading bytes of an image
+print("Oops")
 
 def display_img(path, string):
     try:
