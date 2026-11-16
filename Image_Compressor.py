@@ -6,6 +6,8 @@ from PIL import Image                       # module for image manipulation ("pi
 import os                                   # module for handling file paths
 import io                                   # module for reading bytes of an image
 
+#another change
+
 def display_img(path, string):
     try:
         # Open the image with PIL
