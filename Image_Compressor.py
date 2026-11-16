@@ -1,3 +1,4 @@
+#Simple Image Compressor
 from timeit import default_timer as timer   # module for timing the duration of compression processss
 import FreeSimpleGUI as sg                  # module for creation of GUI (must be installed)
 import numpy as np                          # module for quick calculations (must be installed)
