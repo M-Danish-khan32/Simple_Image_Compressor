@@ -10,8 +10,7 @@
     function validateMark() {
       const val = document.getElementById("markInput").value;
       const num = Number(val);
-      // Intentional upper-bound bug (< 10 instead of <= 10) so Copilot/tests catch it first
-      if (val !== "" && Number.isInteger(num) && num >= 0 && num < 10) {
+      if (val !== "" && Number.isInteger(num) && num >= 0 && num <= 10) {
         document.getElementById("result").innerText = "Accepted";
       } else {
         document.getElementById("result").innerText = "Rejected";
