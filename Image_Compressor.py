@@ -241,4 +241,3 @@ while True:
         window['-TIME-'].update(f'Time elapsed: {total_time} seconds')  #displays the time taken by the compression
 
 window.close()  #closses the window
-#Hope you like it
